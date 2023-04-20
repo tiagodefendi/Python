@@ -1,0 +1,6 @@
+c=float(input('Temperatura em graus celsius '))
+print('=====')
+print(f'{c}°C')
+print(f'{c-273.15}K')
+print(f'{c*1.8+32}F°')
+print('=====')

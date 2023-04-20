@@ -1,0 +1,5 @@
+m=float(input('Quantidade em R$ '))
+print(f'US${m*5.53:.2f}')
+print(f'€{m*6.61:.2f}')
+print(f'£{m*7.71:.2f}')
+print(f'¥{m*0.051:.2f}')
