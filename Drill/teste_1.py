@@ -22,7 +22,7 @@ for commit in Repository('https://github.com/Wolfterro/Projetos-em-C').traverse_
     print(f'DMM size: {commit.dmm_unit_size}')
     print(f'DMM complexity: {commit.dmm_unit_complexity}')
     print(f'DMM Interfacing: {commit.dmm_unit_interfacing}')
-    
+
     #Info per Commit
     for file in commit.modified_files:
         print(f'File Name: {file.filename}')
